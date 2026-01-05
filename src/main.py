@@ -27,7 +27,7 @@ def main():
     df = df.dropna()
 
     # Filter one country (example: World or Aruba)
-    country = "World"
+    country = "France"
     df_country = df[df["country_name"] == country]
 
     # Plot CO2 over time
